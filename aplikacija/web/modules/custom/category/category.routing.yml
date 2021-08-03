@@ -1,0 +1,7 @@
+category.my_page:
+  path: '/my-category'
+  defaults:
+    _controller: '\Drupal\category\Controller\MainController::myPage'
+    _title: 'My first page in D8'
+  requirements:
+    _permission: 'access content'
